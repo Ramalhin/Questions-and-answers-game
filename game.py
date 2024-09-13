@@ -49,6 +49,6 @@ def iniciarJogo():
 
 
 pontuacao_final = iniciarJogo()
-
+print()
 os.system('cls')
 print(f'Você acertou um total de\n {pontuacao_final}/{len(perguntas)} perguntas')
